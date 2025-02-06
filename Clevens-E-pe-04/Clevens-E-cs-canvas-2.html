@@ -66,6 +66,30 @@
             ctx.closePath();
             ctx.fill();
             ctx.stroke();
+
+            ctx.fillStyle = "black";
+            ctx.strokeStyle = "white";
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.arc(300, 220, 10, 0, Math.PI*2, false);
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.arc(340, 220, 10, 0, Math.PI*2, false);
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+
+            ctx.strokeStyle = "black";
+            ctx.lineWidth = 20;
+            ctx.beginPath();
+            ctx.moveTo(0,100);
+            ctx.lineTo(600, 100);
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
 		}
 	</script>
 </head>
